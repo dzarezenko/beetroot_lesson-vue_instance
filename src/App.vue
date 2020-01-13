@@ -15,6 +15,7 @@ export default {
   },
   methods: {
     increase() {
+      //console.log(vm2);
       this.counter++;
     }
   }

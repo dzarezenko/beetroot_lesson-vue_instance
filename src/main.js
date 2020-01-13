@@ -11,3 +11,12 @@ var vm = new Vue({
 // Some logic
 
 vm.$mount('#app');
+
+var vm2 = new Vue({
+  render: function (h) { return h(App) },
+  //el: "#app",
+})
+
+// Some logic
+
+vm2.$mount('#app2');
