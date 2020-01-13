@@ -8,6 +8,11 @@
 
     <button @click="changeText">Change Text</button>
     <button @click="showText">Show Text</button>
+
+    <hr />
+
+    <hello />
+
   </div>
 </template>
 
